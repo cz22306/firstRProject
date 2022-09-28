@@ -1,0 +1,18 @@
+---
+title: "FirstMarkdown"
+author: "Mannat"
+date: "2022-09-28"
+output: html_document
+---
+
+
+```{r}
+#1. create a data frame
+animals <- c("Snake","Ostrich","Cat","Spider")
+num_legs <- c(0,2,4,8)
+animals_df <- data.frame(animals, num_legs)
+```
+
+```{r}
+print(animals_df)
+```
